@@ -71,3 +71,4 @@ def list10():
 # run this app in debug mode on your local. Do not forget to change debug mode to publish mode before you push to the Github repo
 if __name__ == '__main__':
     app.run(debug=True)
+    app.run(host='0.0.0.0', port=80)
